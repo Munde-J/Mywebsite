@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+
+
+}
+
+body {
+  background-image: url(unsplash2.jpeg);
+  background-size:cover ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  text-transform: uppercase;
+ }
+
+a:hover{
+  background:whitesmoke;
+  transition: .5s;
+
+}
+label.logo{
+  color: palevioletred;
+  font-size: 35px;
+  line-height: 80px;
+  padding:0 100px ;
+  font-weight: bold;
+
+}
+h1{
+  text-align: center;
+  padding-top: 13%;
+  margin-right: 55%;
+  font-size: 100px;
+  font-style: oblique;
+  color: aliceblue;
+}
+
+h3{
+  color: antiquewhite;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.container nav{
+  height: 80px;
+  width: 100%;
+}
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
