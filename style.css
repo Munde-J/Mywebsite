@@ -8,11 +8,11 @@
 }
 
 body {
-  background-image: url(unsplash2.jpeg);
+  background-image: url(fruit2.jpg);
   background-size:cover ;
   font-family: Arial, Helvetica, sans-serif;
   font-style: oblique;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
  }
 
 a:hover{
@@ -20,25 +20,18 @@ a:hover{
   transition: .5s;
 
 }
-label.logo{
-  color: palevioletred;
-  font-size: 35px;
-  line-height: 80px;
-  padding:0 100px ;
-  font-weight: bold;
 
-}
 h1{
-  text-align: center;
+  text-align: left;
   padding-top: 13%;
   margin-right: 55%;
   font-size: 100px;
   font-style: oblique;
-  color: aliceblue;
+  color: black;
 }
 
 h3{
-  color: antiquewhite;
+  color: white;
   font-size: 35px;
   font-weight: bold;
   line-height: 80px;
@@ -50,16 +43,23 @@ h3{
   
   li {
     float: right;
+    list-style: none;
+
   }
   
   li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: black;
+    background-color:wheat;
+  }
+  ul{
+    margin-right: 30px;
+    font-size: 20px;
+    
   }
